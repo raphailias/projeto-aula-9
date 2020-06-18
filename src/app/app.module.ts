@@ -9,6 +9,9 @@ import { HomeComponent } from './home/home.component';
 import { InfoComponent } from './info/info.component';
 import { SugestoesComponent } from './sugestoes/sugestoes.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { ListaComponent } from './lista/lista.component';
+import { ListaInputComponent } from './lista-input/lista-input.component';
+import { CursoComponent } from './curso/curso.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -21,7 +24,10 @@ const routes: Routes = [
     HomeComponent,
     InfoComponent,
     SugestoesComponent,
-    NavbarComponent
+    NavbarComponent,
+    ListaComponent,
+    ListaInputComponent,
+    CursoComponent
   ],
   imports: [
     BrowserModule,

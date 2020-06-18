@@ -6,10 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-
+  cursos = []
   constructor() { }
 
   ngOnInit(): void {
   }
-
+  onCursoCadastrado(curso){
+    this.cursos.push(curso);
+  }
 }
